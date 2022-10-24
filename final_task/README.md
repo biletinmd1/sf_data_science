@@ -31,25 +31,29 @@
 ### Краткая информация о данных
 ....
   
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению][def]
 
 
 ### Этапы работы над проектом  
-....
+* [Проект 0. Угадай число](https://github.com/biletinmd1/sf_data_science/blob/main/final_task/game.py)
+* [Проект 1.](https://github.com/biletinmd1/sf_data_science/blob/main/final_task/game.ipynb)
+* [Проект 2.](https://github.com/biletinmd1/sf_data_science/blob/main/final_task/game_v2.py)
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению][def]
 
 
 ### Результаты:  
 ....
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению][def]
 
 
 ### Выводы:  
 ....
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению][def]
 
 
 Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️⭐️⭐️-дами
+
+[def]: .README.md#Оглавление
