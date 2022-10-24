@@ -22,7 +22,7 @@ def random_predict(number: int = 1) -> int:
     while True:
         count += 1
         mid1 = round((big_number + low_number)/2)  # предполагаемое число
-        if count > 20: break  # выход из цикла если угадали
+        if count > 18: break  # выход из цикла если угадали
     return count
 
 
