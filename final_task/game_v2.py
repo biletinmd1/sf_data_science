@@ -1,35 +1,37 @@
-"""Игра угадай число
-Компьютер сам загадывает и сам угадывает число
-"""
-import random
 import numpy as np
 
 
 def random_predict(number: int = 1) -> int:
-    """_summary_
+    """Рандомно угадываем число
 
     Args:
-        number (int, optional): _description_. Defaults to np.random.randint(1, 101).
+        number (int, optional): Загаданное число. Defaults to 1.
 
     Returns:
-        int: _description_
+        int: Число попыток
     """
     count = 0
     nmax = 102
     nmin = 1
-    
+
+    # predict_number = np.random.randint(1, 101)
+    # print(number)
+
     while True:
         count += 1
-        predict_number = (nmin+nmax)//2# предполагаемое число
+        predict_number = (nmin+nmax)//2  # предполагаемое число
+        # print(count, predict_number)
         if number < predict_number:
             nmax = predict_number
         elif number > predict_number:
             nmin = predict_number
         else:
-            number == predict_number
-            # print(f'Компьютер угадал загаданное число за {count} попыток. Это число {number}')
+    # print(f'Компьютер угадал загаданное число за {count} попыток. Это число {number}')
             break
+        if count > 20: break
     return count
+
+
 def score_game(random_predict) -> int:
     """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
 
